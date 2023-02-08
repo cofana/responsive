@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div id="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+        <div id="menu">
+            <ul>
+                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#work">My work</a></li>
+                <li><a href="#skill">My Skills</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="background">
+        <div id="mainText">
+            <h1>Hello there, im Filip !</h1>
+            <p id="first">Welcome to my portfolio</p>
+            <p id="second">Click the arrow below to find out about me</p>
+            <div><a href="#aboutMe"><i class="fas fa-arrow-circle-down"></i></a></div>
+        </div>
+    </div>
+
+    <div id="aboutMe">
+        <h2><label>About me</label></h2>
+        <div id="infoAbout">
+            <div id="infoImage"></div>
+            <div id="infoText">
+                <p id="first1">Hi, my name is Filip Blagojevic, and i'm from Belgrade.
+                    <br/>I graduated Vazduhuplovna Akademija, and then I got in the Faculty of ICT.<br/> I wasn't really ever into Airplanes i was more of an IT guy so that's why i didnt continue with aviation.<br/> I decided to get in Faculty of ICT because i wanted to expand my IT knowledge and secure a better future for me.
+                </p>
+                <p id="second1">Click the arrow below to check out my work so far </p>
+                <div><a href="#work"><i class="fas fa-arrow-circle-down"></i></a></div>
+            </div>     
+        </div>
+    </div>
+
+    <div id="work">
+        <h2><label>My projects</label></h2>
+        <div id="boxes">
+            <div class="box">
+                <div class="boxImage b0"></div>
+                <div class="boxText">
+                    <h3>Star Hotel</h3>
+                    <p>HTML, CSS, not responsive</p>
+                    <a href="http://hotelstar.epizy.com/index.html">Click to see it !</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="boxImage b1"></div>
+                <div class="boxText">
+                    <h3>Nike Retails</h3>
+                    <p>HTML,CSS,Responsive</p>
+                    <a href="#">Click to see it !</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="boxImage b2"></div>
+                <div class="boxText">
+                    <h3>Fitness life</h3>
+                    <p>HTML,CSS,Responsive</p>
+                    <a href="#">Click to see it !</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="workArrow">
+            <p>Click the arrow below to see what I know </p>
+            <a href="#skill"><i class="fas fa-arrow-circle-down"></i></a>
+        </div>
+    </div>
+
+    <div id="skill">
+        <h2><label>My Skills</label></h2>
+        <div id="skillBoxes">
+            <div class="skillBox">
+                    <p>HTML 5</p>
+                    <i class="fab fa-html5 i0"></i>
+            </div>
+            <div class="skillBox">
+                    <p>CSS 3</p>
+                    <i class="fab fa-css3-alt i1"></i>
+            </div>
+            <div class="skillBox">
+                <p>Bootstrap</p>
+                <i class="fab fa-bootstrap i2"></i>
+            </div>
+            <div class="skillBox">
+                    <p>Java Script</p>
+                    <i class="fab fa-js-square i3"></i>
+            </div>
+            <div class="skillBox">
+                    <p>Adobe Photoshop</p>
+                    <i class="fab fa-adobe i4"></i>
+            </div>
+            <div class="skillBox">
+                    <p>SASS</p>
+                    <i class="fab fa-sass i5"></i>
+            </div>
+        </div>
+
+        <div id="skillArrow">
+                <p>Click the arrow below to contact me </p>
+                <a href="#contact"><i class="fas fa-arrow-circle-down"></i></a>
+            </div>
+    </div>
+
+    <div id="contact">
+        <div id="contactForm">
+            <h2><label>Contact me</label></h2>
+            <form action="index.html" method="get">
+                <label for="Name">Your name : </label>
+                <input type="text" id="Name" required="required" placeholder="Your full name" class="input1"/>
+                <br/>
+                <label for="Subject">Subject : </label>
+                <select id="lista" class="input1">
+                    <option value="0">...</option>
+                    <option value="1">Direct Question</option>
+                    <option value="2">Business Offer</option>
+                    <option value="3">Ad offer</option>
+                </select>
+                </br>
+                <label for="mail">Your e-mail : </label>
+                <input type="email" id="mail" required="required" placeholder="Email" class="input1"/>
+                <br/>
+                <textarea name="area" id="area" cols="30" rows="7" placeholder="Your message..."></textarea>
+                <br/>
+                <input type="submit" name="button" id="button1" value="Send message"/>
+            </form>
+        </div>
+    </div>
+
+    <div id="socials">
+        <h2>Socials and others</h2>
+        <div id="social">
+                <a href="https://www.facebook.com/profile.php?id=100002214204431"><i class="fab fa-facebook-f f1"></i></a>
+                <a href="https://www.instagram.com/blagojevic_f/?hl=sr"><i class="fab fa-instagram f2"></i></a>
+                <a href="style.scss"><i class="fab fa-sass f3"></i></a>
+                <a href="sitemap.xml"><i class="fas fa-sitemap f4"></i></a>
+                <a href="style.css"><i class="fab fa-css3-alt f5"></i></a>
+        </div>
+    </div>
+
+    <div id="arrowUp">
+        <a href="#background"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+</body>
+</html>
